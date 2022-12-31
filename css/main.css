@@ -1,0 +1,131 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+    padding: 2rem 0 5rem;
+    text-align: center;
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+}
+
+.resume{
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 65rem;
+}
+.resume>div{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 10px;
+  padding: 10px ;
+  width: 150%;
+}
+
+.card{
+  background-color: white;
+}
+.card-1{
+  background-color: red;
+}
+.card-2{
+  background-color: green;
+}
+.newItem{
+  display: flex;
+  gap: 10px;
+  align-items: end;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 60rem;
+}
+
+.divDesc, .divType, .divAmount{
+  display: flex;
+  flex-direction: column;
+}
+
+.newItem>button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 2px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 34px;
+}
+
+input, select{
+  padding: 5px;
+}
+
+.divTable{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 60rem;
+}
+
+table{
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+th{
+  text-align: start;
+  border-bottom: inset;
+  padding-bottom: 5px;
+}
+
+.columnAction{
+  width: 40px;
+  text-align: center;
+}
+.columnAction>button{
+  background-color: transparent;
+  border: none;
+}
+
+.columnAmount{
+  width: 30%;
+}
+
+.columnType{
+  width: 80px;
+  text-align: center;
+}
+
+main{
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive*/
+@media (min-width: 800px) {
+  html {
+    font-size: 87.5%;
+  }
+}
